@@ -12,6 +12,12 @@ document.addEventListener("touchstart",function(){
         started=true;
     }
 });
+document.addEventListener("keypress",function(){
+    if (started==false){
+        levelUp();
+        started=true;
+    }
+});
 function gameFlash(btn) {
 btn.classList.add("flash");
 setTimeout(function(){
