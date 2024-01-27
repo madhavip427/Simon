@@ -29,5 +29,11 @@ body{
     background-color: white;   
 }
 .userflash{
-    background-color: yellow;
+    background-color: green;
+}
+@media{
+    .btn{
+        width: 100px;
+        height: 100px;
+    }
 }
