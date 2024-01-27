@@ -31,7 +31,7 @@ body{
 .userflash{
     background-color: green;
 }
-@media{
+@media only screen and (max-width: 600px){
     .btn{
         width: 100px;
         height: 100px;
